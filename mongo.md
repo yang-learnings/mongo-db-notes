@@ -34,9 +34,9 @@ db.dropUser('<userName>')
 * dbAdmin – Grant privileges to perform administrative tasks
 * userAdmin – Allows you to create and modify users and roles on the current database
 * dbOwner – This role combines the following:
-* * readWrite
-* * dbAdmin
-* * userAdmin
+ * readWrite
+ * dbAdmin
+ * userAdmin
 
 * clusterMonitor – Provides read-only access to monitoring tools
 * clusterManager – For management and monitoring actions on the cluster
